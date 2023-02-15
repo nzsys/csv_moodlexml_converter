@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question type="category">
+        <category>
+            <text><?php echo $category->toMoodleCategory(); ?></text>
+        </category>
+        <info format="moodle_auto_format">
+            <text></text>
+        </info>
+        <idnumber></idnumber>
+    </question>
+    <?php
+        foreach ($generator as $model) {
+            include __DIR__ . '/MultiChoice.xml';
+        }
+    ?>
+</quiz>

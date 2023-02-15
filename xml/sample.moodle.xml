@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <question type="category">
+        <category>
+            <text>$cat1$/top/カテゴリ1</text>
+        </category>
+        <info format="moodle_auto_format">
+            <text></text>
+        </info>
+        <idnumber></idnumber>
+    </question>
+    <question type="multichoice">
+    <name>
+        <text>問題</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;"></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+        <text>あなたの答えは正解です。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+        <text>あなたの答えは部分的に正解です。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+        <text>あなたの答えは正しくありません。</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">回答A<br></p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">回答B<br></p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">回答C<br></p>]]></text>
+        <feedback format="html">
+            <text></text>
+        </feedback>
+    </answer>
+</question>
+</quiz>
